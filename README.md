@@ -1,6 +1,6 @@
-# esc_pos_printer
+# esc_pos_printer_plus
 
-[![Pub Version](https://img.shields.io/pub/v/esc_pos_printer)](https://pub.dev/packages/esc_pos_printer)
+[![Pub Version](https://img.shields.io/pub/v/esc_pos_printer_plus)](https://pub.dev/packages/esc_pos_printer_plus)
 
 The library allows to print receipts using an ESC/POS thermal WiFi/Ethernet printer. For Bluetooth printers, use [esc_pos_bluetooth](https://github.com/andrey-ushakov/esc_pos_bluetooth) library.
 
@@ -16,7 +16,7 @@ To scan for printers in your network, consider using [ping_discover_network](htt
 
 ## How to Help
 
-- Test your printer and add it in the table: [Wifi/Network printer](https://github.com/andrey-ushakov/esc_pos_printer/blob/master/printers.md) or [Bluetooth printer](https://github.com/andrey-ushakov/esc_pos_bluetooth/blob/master/printers.md)
+- Test your printer and add it in the table: [Wifi/Network printer](https://github.com/andrey-ushakov/esc_pos_printer_plus/blob/master/printers.md) or [Bluetooth printer](https://github.com/andrey-ushakov/esc_pos_bluetooth/blob/master/printers.md)
 - Test and report bugs
 - Share your ideas about what could be improved (code optimization, new features...)
 - PRs are welcomed!
@@ -63,7 +63,7 @@ You can find more examples here: [esc_pos_utils](https://github.com/andrey-ushak
 ## Print a Receipt
 
 ```dart
-import 'package:esc_pos_printer/esc_pos_printer.dart';
+import 'package:esc_pos_printer_plus/esc_pos_printer_plus.dart';
 
 const PaperSize paper = PaperSize.mm80;
 final profile = await CapabilityProfile.load();
@@ -83,6 +83,6 @@ For a complete example, check `example/example.dart` and `example/discover_print
 
 ## Test Print
 
-<img src="https://github.com/andrey-ushakov/esc_pos_printer/blob/master/example/receipt2.jpg?raw=true" alt="test receipt" height="800"/>
+<img src="https://github.com/brasizza/esc_pos_printer/blob/master/example/receipt2.jpg?raw=true" alt="test receipt" height="800"/>
 
-<img src="https://github.com/andrey-ushakov/esc_pos_printer/blob/master/example/receipt.jpg?raw=true" alt="test receipt" height="500"/>
+<img src="https://github.com/brasizza/esc_pos_printer/blob/master/example/receipt.jpg?raw=true" alt="test receipt" height="500"/>
